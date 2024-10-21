@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content > .card-widget {
+    height: 200px;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.card .card-image {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 32px auto;
+    transition: all linear 0.4s;
+}
+
+.card .card-image img {
+    height: 100%;
+}
+
+.card-widget:hover .card .card-image {
+    height: 150px;
+    width: 150px;
+    margin: 18px auto;
+}
+
+.card {
+    height: 350px;
+    width: 100%;
+    background-color: #514c9cff;
+    margin: auto;
+    z-index: 3;
+    padding: 12px;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+.card-content {
+    height: 220px;
+    width: 100%;
+    position: relative;
+    top: -200px;
+    background-color: #514c9cff;
+    margin: auto;
+    transition: all linear 0.7s;
+    z-index: 2;
+    padding: 18px;
+    border-radius: 20px;
+}
+
+/* hovernya dimatiin dulu */
+
+/* .card-widget:hover .card-content {
+    top: 40px;
+} */
+
+.card-widget h2, span {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* tambahan style buat javascript */
+
+.buka{
+    top: 20px;
+}
+
+.card-inner-content {
+    opacity: 1;
+    text-align: center;
+}
+
+.card-inner-content h2 {
+    font-size: 20px;
+}
+
+.card-inner-content p {
+    text-align: left;
+    margin: 14px;
+}
+
+.name-card {
+    font-weight: 600;
+}
+
+.card-widget {
+    margin-bottom: 700px;
+}
